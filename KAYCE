@@ -95,7 +95,7 @@ while (loop == 'true'):
         print "salah sayang!"
         os.system('xdg-open https://wa.me/+2349066073100')	
 def logo():
-		os.system('echo  "\n\n ╔═════════════════════════════╗\n    ║ TOOL NAME: { BANK}        ║\n    ║ AUTHOR   : CHIGOZIEWORLDWIDE            ║\n    ║ GITHUB   : CHIGOZIEWORLDWIDE       ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
+		os.system('echo  "\n\n ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓\n    ║ TOOL NAME: { BANK}        ║\n    ║ AUTHOR   : KAYCE TECH❤️            ║\n    ║ GITHUB   : KAYCE3125       ║\n    ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
