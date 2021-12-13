@@ -92,7 +92,7 @@ while (loop == 'true'):
             print "yang bener dong"
             os.system('xdg-open https://wa.me/+2349066073100')
     else:
-        print "salah sayang!"
+        print "incorrect details, message me on WhatsApp to buy log details!"
         os.system('xdg-open https://wa.me/+2349066073100')	
 def logo():
 		os.system('echo  "\n\n ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓\n    ║ TOOL NAME: { KAYCEHACKER}        ║\n    ║ AUTHOR   : KAYCETECH            ║\n    ║ GITHUB   : KAYCE3125       ║\n    ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓" | lolcat -a -d 2 -s 50')	
