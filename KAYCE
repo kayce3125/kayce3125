@@ -73,7 +73,7 @@ logo = """
 
 \033[37;1m[\033[41;1mAMOBI KAYCE\033[00;1m\033[37;1m ]\n
 
- \033[32;1mCreator \033[37;1m: \033[33;1mCHIGOZIE
+ \033[32;1mCreator \033[37;1m: \033[33;1mKAYCE
  
  \033[32;1mVersion \033[37;1m: \033[33;1m100                                   
 """
@@ -82,9 +82,9 @@ CorrectPassword = "kaycetechhacker"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL USERNAME(PAID TOOL) \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[•] \x1b[92;1mENTER TOOL USERNAME(PAID TOOL) \x1b[1;96m≥≥ ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL PASSWORD(PAID TOOL) \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[•] \x1b[92;1mENTER TOOL PASSWORD(PAID TOOL) \x1b[1;96m≥≥ ")
         if (password == CorrectPassword):
             print "Congratulations Paid Users " + username
             loop = 'false'
@@ -92,10 +92,10 @@ while (loop == 'true'):
             print "yang bener dong"
             os.system('xdg-open https://wa.me/+2349066073100')
     else:
-        print "salah sayang!"
+        print " incorrect, please text me on WhatsApp to buy tools"
         os.system('xdg-open https://wa.me/+2349066073100')	
 def logo():
-		os.system('echo  "\n\n ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓\n    ║ TOOL NAME: { BANK}       \n    ║ AUTHOR   : KAYCE TECH❤️           \n    ║ GITHUB   : KAYCE3125      \n    ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓" | lolcat -a -d 2 -s 50')	
+		os.system('echo  "\n\n      ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓\n    ║ TOOL NAME: KAYCEHACKER       \n    ║ AUTHOR   : KAYCE TECH           \n    ║ GITHUB   : KAYCE3125      \n    ║ WHATSAPP   : 2349066073100    ✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
