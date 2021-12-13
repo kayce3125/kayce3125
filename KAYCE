@@ -199,7 +199,6 @@ def menu():
     print("\033[92;1m     HELLO, WELCOME 🤗!   : \033[92;1m"+xn)
     print("\033[92;1m     CURRENT COUNTRY BY DEVICE  : \033[92;1m") + loc
     print("\033[92;1m     YOUR DEVICE IP : \033[92;1m") + ip
-    print("\033[92;1m     YOUR DEVICE NAME : \033[92;1m") + UNKNOWN (still loading...)
     print("")
 
     print("")
